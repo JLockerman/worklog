@@ -1,3 +1,12 @@
 Tuesday   2020-12-01
 ====================
+00:00 - 01:00  Example
+    This is an example of the worklog format
 
+01:00 - __:__  Start Task
+    When you run `start-task` it will end the last task (see below) and start a
+    new task at the current time and ending at an unspecified time: __:__
+
+03:00 - 04:14  End Task
+    When you run `end-task` it will replace the last task's "__:__" with the
+    current time.
